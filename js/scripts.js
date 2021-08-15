@@ -1,4 +1,4 @@
-//fetch random user1
+//fetch 12 random users
 
 fetch("https://randomuser.me/api/?results=12")
   .then((response) => response.json())
