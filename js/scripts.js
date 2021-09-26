@@ -16,6 +16,7 @@ function fetchData(url) {
 fetchData("https://randomuser.me/api/?nat=us&results=12").then((data) => {
 	personData = data.results;
 	createGalleryMarkup(personData);
+
 	createModal(personData);
 });
 
